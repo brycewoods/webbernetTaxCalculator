@@ -63,7 +63,7 @@ class TaxProcessor
 		
 		tax += calculateTaxBracket(54232,0.45, leftOver)
 			
-		return tax
+		return tax.round(2)
 	
 	end
 	
